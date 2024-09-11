@@ -1,0 +1,209 @@
+.gradient-background {
+	background: linear-gradient(300deg, #3595b4, #eac2e2, #3acd9e);
+	background-size: 180% 180%;
+	animation: gradient-animation 18s ease infinite;
+  }
+
+  
+  @keyframes gradient-animation {
+	0% {
+	  background-position: 0% 50%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+	100% {
+	  background-position: 0% 50%;
+	}
+  }
+
+body {
+	background-color: rgb(226, 235, 203);
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 8fr 3fr;
+	gap: 1rem;
+	margin-left: 10px;
+}
+
+.title-text {
+	align-content: center;
+	text-align: left;
+}
+
+.intro-panda {
+	height: 80vh;
+
+}
+
+h1 {
+	font-family: "Fascinate Inline", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 48px;
+}
+
+h2 {
+		
+	font-size: 35px;
+	font-family: "Fascinate Inline", system-ui;
+	font-weight: 400;
+	
+	color: rgb(70, 101, 158);
+}
+
+.myname {
+	font-family: "Silkscreen", system-ui;
+    font-weight: 700;
+    font-style: normal;
+	color: rgb(103, 2, 2);
+	font-size: 42px;
+	
+}
+
+blockquote {
+	font-size: 1.35rem;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.mid-container {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.img-circle {
+	margin: 10px 10px 50px 10px;
+	border-radius: 50%;
+	border: 5px solid rgb(25, 99, 89);
+}
+
+.subintro {
+	font-family: "Dancing Script", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+	text-align: center;
+	font-size: 30px;
+}
+
+.res-container {
+	background-color: rgb(237, 211, 236);
+	text-align: center;
+	font-style: normal;
+	padding-bottom: 30px;
+	padding-top: 30px;
+
+	h2 {
+		
+		font-size: 35px;
+		font-family: "Fascinate Inline", system-ui;
+        font-weight: 400;
+        text-align: center;
+		color: rgb(70, 101, 158);
+	}
+
+	h3 {
+		font-size: 20px;
+		font-family: "Playfair Display", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 200;
+
+	}
+}
+
+.skill-container {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+	h2 {
+		margin-top: 50px;
+		margin-bottom: 8%;
+		font-size: 35px;
+		font-family: "Fascinate Inline", system-ui;
+        font-weight: 400;
+		color: rgb(70, 101, 158);
+	}
+}
+
+.skill-table {
+	margin: 15px;
+	gap: 10px ;
+	display: grid;
+	min-width: 600px;
+	grid-template-columns: 1fr 1.5fr;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.text {
+	background-color: rgb(190, 211, 229);
+	font-family: "Dancing Script", system-ui;
+    font-optical-sizing: auto;
+    font-style: small;
+    text-align: left;
+    font-size: 22px;
+	color: rgb(141, 37, 58);
+	padding-left: 10px;
+	border: 2px solid rgb(37, 92, 70);
+
+}
+
+.gif {
+	padding-bottom: 20px;
+}
+
+.s1 {
+	font-family: "Silkscreen", system-ui;
+    font-weight: 500;
+    font-style: normal;
+	color: rgb(72, 6, 130);
+}
+
+.contact-container {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background-color: rgb(237, 211, 236);
+	p{
+		margin: 30px;
+		font-size: 15px;
+		font-family: "Playfair Display", system-ui;
+	    font-optical-sizing: auto;
+		font-weight: 200;
+	
+	}
+}
+
+.bottom-container {
+	padding: 50px 0px 20px;
+	.links {
+		display: flex;
+    	justify-content: space-around;
+		margin-bottom: 30px;
+	}
+
+	p{
+		text-align: center;
+		font-size: 1.5rem;
+		
+	}
+	   
+}
+
+.footer-link {
+	color: darkmagenta;
+	font-size: 1.5rem;
+}
